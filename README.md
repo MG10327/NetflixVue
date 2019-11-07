@@ -1,4 +1,6 @@
-# movie_listings
+# NetflixVue
+
+This is still a work in progress :)
 
 ## Project setup
 ```

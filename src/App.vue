@@ -2,23 +2,32 @@
   <div id="app">
     <MainNavigation />
     <HeroHeader />
+    <MainBody />
   </div>
 </template>
 
 <script>
 import MainNavigation from './components/MainNavigation.vue'
 import HeroHeader from './components/HeroHeader.vue'
+import MainBody from './components/MainBody.vue'
+
 
 export default {
   name: 'app',
   components: {
     MainNavigation,
-    HeroHeader
+    HeroHeader,
+    MainBody
   }
 }
 </script>
 
 <style>
+
+* {
+  transition: 0.3s;
+}
+
 body {
   background: #000;
   overflow-x: hidden;

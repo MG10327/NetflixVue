@@ -81,12 +81,10 @@ export default {
 </script>
 
 <style scoped>
-.stuff {
-    background: #fff;
-}
+
 .volatile-billboard-animations-container {
     display: block;
-    z-index: 1;
+    z-index: -99;
     position: relative;
 }
 .volatile-billboard-animations-container .billboard-row {
